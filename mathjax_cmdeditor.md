@@ -1,4 +1,3 @@
-﻿
 ---
 
 #Cmd Markdown 公式指导手册
@@ -686,7 +685,7 @@ $$
 ```
 - 显示：
 $$
-        \begin{matrix}
+\begin{matrix}
         1 & x & x^2 \\
         1 & y & y^2 \\
         1 & z & z^2 \\
@@ -711,7 +710,7 @@ $ \begin{Vmatrix} 1 & 2 \\ 3 & 4 \\ \end{Vmatrix} $
 |matrix|pmatrix|bmatrix|Bmatrix|vmatrix|Vmatrix|
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |$ \begin{matrix} 1 & 2 \\ 3 & 4 \\ \end{matrix} $|$ \begin{pmatrix} 1 & 2 \\ 3 & 4 \\ \end{pmatrix} $|$ \begin{bmatrix} 1 & 2 \\ 3 & 4 \\ \end{bmatrix} $|$ \begin{Bmatrix} 1 & 2 \\ 3 & 4 \\ \end{Bmatrix} $|$ \begin{vmatrix} 1 & 2 \\ 3 & 4 \\ \end{vmatrix} $|$ \begin{Vmatrix} 1 & 2 \\ 3 & 4 \\ \end{Vmatrix} $|
-　　　　
+
 ##3．如何输入带省略符号的矩阵
 
 使用 `\cdots` $\cdots$ , `\ddots` $\ddots$ , `\vdots` $\vdots$ 来输入省略符号。
@@ -730,7 +729,7 @@ $$
 
 - 显示：
 $$
-        \begin{pmatrix}
+\begin{pmatrix}
         1 & a_1 & a_1^2 & \cdots & a_1^n \\
         1 & a_2 & a_2^2 & \cdots & a_2^n \\
         \vdots & \vdots & \vdots & \ddots & \vdots \\
